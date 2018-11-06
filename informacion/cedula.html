@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+     <link rel="stylesheet" type="text/css" href="../css/formulario.css" />
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+ <header>
+     <h1>VALIDAR CEDULA</h1>
+     
+   </header>
+
+   
+  <form>
+   <div  id="Datos" class="container formulario">  
+    <br>
+    <br>
+	 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">  
+	 CEDULA <input type=text name=cedula id="cedula" class="cedula"> 
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">  
+	 Resultado: <input type=text name=resultado>
+  </div>
+   <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">  
+	 <input type=button class="btn" value="VALIDAR" onclick= valida_cedula(cedula,resultado);> 
+	 <input type="reset" class="btn"  >
+   <br>
+   <br>
+  </div>
+  </div>
+	
+	</form>
+
+	
+         <script src="../js/jquery-3.3.1.min.js"></script>
+         <script src="../js/bootstrap.min.js"></script>
+         <script src="../js/acciones.js"></script>
+        <script  src="../js/jquery.mask.min.js"></script>
+
+
+
+      <script type="text/javascript">
+         
+           $(document).ready(function () {
+                  $('.cedula').mask('000-0000000-0');
+           });
+      </script>
+
+
+
+
+  
+</body>
+</html>
+
+
+
+ 

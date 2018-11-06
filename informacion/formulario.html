@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+     <link rel="stylesheet" type="text/css" href="../css/formulario.css" />
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+</head>
+<body>
+<header class= encabezado>
+
+    
+   
+   <div class="container">
+       <h1 > INTRODUCCION <small> Vamos por mas</small></h1>
+   </div>
+</header>
+
+<form name="Miformualario" method="post"  action="">
+
+   <div  id="Datos" class="container formulario">
+         
+         <div class="row etiquetas">
+          <br>
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">    
+                  <label>Nombre :</label>
+              </div> 
+
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">             
+                  <input type="text" id="nombre" name="nombre" class="form-control input-lg" />
+              </div> 
+          </div>       
+          <div class="row etiquetas">
+               <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">       
+                  <label>Edad:</label>
+               </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+                  <input type="number" id="edad" name="edad" class="form-control input-lg" />
+              </div>        
+          </div>
+
+          <div class="row etiquetas">         
+              <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">   
+                 <label>Color:</label>
+              </div> 
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+                 <input type="radio" name="color"  value="rojo">Rojo<br>
+                 <input type="radio" name="color" value="azul">Azul<br>
+                 <input type="radio" name="color" value="amarillo">Amariilo<br>
+                 <input type="radio" name="color" value="verde">Verde<br>
+                 <input type="radio" name="color" value="violeta">Violeta<br>
+              </div>
+          </div> 
+          <br>
+         
+  <p id="pantalla"></p>
+ 
+	
+	<div class="trans text-center">    
+   <input value="Continuar" class="btn btn-mio btn-lg" type="sumit" onclick="validar()">
+   <input value="Volver" class="btn btn-mio btn-lg" type="sumit" onclick="window.location.href='../index.html'">
+   </br>
+   </br>
+  </div>
+
+  </form>
+ </div> 
+
+
+
+         <script src="js/jquery-3.3.1.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="../js/acciones.js"></script>
+
+</body>
+</html>

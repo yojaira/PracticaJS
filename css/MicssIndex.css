@@ -1,0 +1,121 @@
+
+
+.botones{
+ background: #800000;
+ color:white;
+ transition: all 100ms ease;
+}
+
+
+
+
+button:hover ,input:hover{
+background: white;
+color: #c41734;
+box-shadow: inset 0 0 0 3px black;
+}
+
+
+
+#Botones-Seccion 
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: #660000;
+  font-family: Times New Roman;
+  font-size:19px;
+
+}
+
+#Botones-Seccion 
+{  text-align: center;}
+
+
+.caja {
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+font-size: 18px;
+font-weight: 400;
+overflow: hidden;
+padding: 20px;
+border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+margin-bottom: 4%;
+}
+
+
+
+
+.encabezado{
+   background: #800000;
+}
+
+
+
+footer 
+{
+  clear: both;
+  background: #660000;
+  color:white;
+}
+
+
+
+#foto
+{
+  float: left;
+  width: 100px; 
+  height: 100px;
+  margin:1%;
+}
+
+
+
+
+
+.header{
+ background: #660000;
+ color:black;
+
+}
+
+
+
+
+
+
+
+
+.imgRedonda {
+
+  float: right;
+	padding-right: 15px;
+	padding-left: 15px;
+  height: 210px;
+  width: 210px;
+	border:10px solid black;
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+}
+
+
+
+#letra{
+  color:#32d3d0;
+ 
+
+}
+
+
+
+
+
+.pie{
+	margin: 2%;
+	background: #800000;
+
+}
+
+
+
